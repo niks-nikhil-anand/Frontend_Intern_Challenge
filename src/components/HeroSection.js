@@ -26,7 +26,7 @@ const HeroSection = () => {
           <div className="flex items-center justify-center md:justify-start mb-4">
             <div className="h-1 w-10 bg-blue-500 mr-4 rounded-full hidden md:block"></div>
             <h1 className="text-4xl md:text-5xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
-              Hi, I'm Nikhil Anand 👋
+              Hi, I&apos;m Nikhil Anand 👋
             </h1>
           </div>
 
