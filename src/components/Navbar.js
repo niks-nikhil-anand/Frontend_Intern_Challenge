@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -10,16 +11,30 @@ const Navbar = () => {
     <nav>
       <nav className="w-full fixed top-0 left-0 bg-white shadow-md z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
-          <div className="text-2xl font-bold text-gray-800">MyLogo</div>
+          <div className="text-2xl font-bold text-gray-800">
+            <Image
+              src="/profile.jpeg"
+              alt="Nikhil Anand"
+              width={40}
+              height={40}
+              className="rounded-full "
+            />
+          </div>
           {/* Desktop menu starts from here ...... */}
           <div className="hidden md:flex gap-8 text-gray-600 font-medium">
             <Link href={"/"} className="hover:text-black hover:underline">
               Home
             </Link>
-            <Link href={"/AboutUs"} className="hover:text-black hover:underline">
+            <Link
+              href={"/AboutUs"}
+              className="hover:text-black hover:underline"
+            >
               About Us
             </Link>
-            <Link href={"/Projects"} className="hover:text-black hover:underline">
+            <Link
+              href={"/Projects"}
+              className="hover:text-black hover:underline"
+            >
               Projects
             </Link>
             <Link
