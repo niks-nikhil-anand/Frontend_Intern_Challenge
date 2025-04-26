@@ -1,3 +1,4 @@
+import CoffeeTracker from '@/components/CoffeeTracker'
 import FreelanceProjects from '@/components/FreelanceProjects'
 import HeroSection from '@/components/HeroSection'
 import PersonalProjects from '@/components/PersonalProjects'
@@ -9,6 +10,7 @@ const page = () => {
     <div>
       <HeroSection/>
       <SkillsSections/>
+      <CoffeeTracker/>
       <PersonalProjects/>
       <FreelanceProjects/>
     </div>
