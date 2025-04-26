@@ -21,7 +21,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-blue-500/10 rounded-full z-20"></div>
           </div>
         </div>
-        
+
         <div className="flex flex-col justify-center text-center md:text-left">
           <div className="flex items-center justify-center md:justify-start mb-4">
             <div className="h-1 w-10 bg-blue-500 mr-4 rounded-full hidden md:block"></div>
@@ -29,9 +29,11 @@ const HeroSection = () => {
               Hi, I'm Nikhil Anand 👋
             </h1>
           </div>
-          
+
           <p className="text-gray-300 text-lg mb-8 max-w-xl backdrop-blur-sm bg-gray-800/30 p-4 rounded-lg border border-gray-700/50">
-            Full Stack Developer | Passionate about building scalable web apps and solving real-world problems using cutting-edge technology. Currently focusing on React.js, Next.js, Node.js, Docker, and AWS.
+            Full Stack Developer | Passionate about building scalable web apps
+            and solving real-world problems using cutting-edge technology.
+            Currently focusing on React.js, Next.js, Node.js, Docker, and AWS.
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
