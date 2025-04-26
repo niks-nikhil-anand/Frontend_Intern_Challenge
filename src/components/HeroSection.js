@@ -17,21 +17,21 @@ const HeroSection = () => {
           />
         </div>
         <div className="flex flex-col justify-center text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 ">
             Hi, I'm Nikhil Anand 👋
           </h1>
-          <p className="text-gray-600 text-lg mb-6 max-w-xl">
+          <p className="text-gray-600 text-lg mb-6 max-w-xl ">
             Full Stack Developer | Passionate about building scalable web apps and solving real-world problems using cutting-edge technology. Currently focusing on React.js, Next.js, Node.js, Docker, and AWS.
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
             <Link href="/MyResume.pdf" download>
-              <button className="px-6 py-3 bg-black text-white rounded-full shadow hover:bg-gray-800 transition">
+              <button className="px-6 py-3 bg-black text-white rounded-full shadow hover:bg-gray-800 transition cursor-pointer">
                 Download Resume
               </button>
             </Link>
-            <Link href={"/AboutUs"} target="_blank">
-              <button className="px-6 py-3 border border-black text-black rounded-full hover:bg-black hover:text-white transition">
+            <Link href={"/AboutUs"} >
+              <button className="px-6 py-3 border border-black text-black rounded-full hover:bg-black hover:text-white transition cursor-pointer">
                 My Journey
               </button>
             </Link>
