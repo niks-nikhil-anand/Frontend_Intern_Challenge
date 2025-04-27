@@ -1,52 +1,9 @@
 "use client";
+import { JourneyData } from "@/constants";
 import React from "react";
-import {
-  FaCode,
-  FaGraduationCap,
-  FaBriefcase,
-  FaLaptopCode,
-  FaRocket,
-} from "react-icons/fa";
+
 
 const AboutSection = () => {
-  const journeySteps = [
-    {
-      year: "2022",
-      title: "Started Coding Journey",
-      description:
-        "Began learning programming fundamentals with JavaScript, building small projects to understand core concepts.",
-      icon: <FaCode />,
-    },
-    {
-      year: "2023",
-      title: "Computer Science Degree",
-      description:
-        "Graduated with a degree in Computer Science, focusing on algorithms, data structures, and web development technologies.",
-      icon: <FaGraduationCap />,
-    },
-    {
-      year: "2021",
-      title: "First Developer Role",
-      description:
-        "Joined a startup as a Junior Developer, where I worked on front-end development using React and gained practical industry experience.",
-      icon: <FaBriefcase />,
-    },
-    {
-      year: "2022",
-      title: "Full Stack Transition",
-      description:
-        "Expanded my skills to include back-end development with Node.js, Express, and MongoDB, becoming a Full Stack Developer.",
-      icon: <FaLaptopCode />,
-    },
-    {
-      year: "2023 - Present",
-      title: "Advanced Projects & Growth",
-      description:
-        "Leading development on scalable web applications, implementing CI/CD pipelines, and exploring cloud services like AWS and Docker.",
-      icon: <FaRocket />,
-    },
-  ];
-
   return (
     <section
       className="w-full py-20 bg-gradient-to-b from-gray-900 to-gray-800 px-6"
@@ -103,7 +60,7 @@ const AboutSection = () => {
 
             {/* Journey Steps */}
             <div className="space-y-12 pl-16">
-              {journeySteps.map((step, index) => (
+              {JourneyData.map((step, index) => (
                 <div key={index} className="relative">
                   {/* Timeline Icon */}
                   <div className="absolute -left-8 flex items-center justify-center w-16 h-16">

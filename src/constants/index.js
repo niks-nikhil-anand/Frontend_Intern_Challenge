@@ -1,3 +1,12 @@
+import {
+  FaWordpressSimple,
+  FaShoppingCart,
+  FaCode,
+  FaLaptopCode,
+  FaRocket,
+  FaBrain,
+} from "react-icons/fa";
+
 export const skills = [
     {
       category: "Languages",
@@ -60,6 +69,45 @@ export const skills = [
       githubLink: "https://github.com/flyingalphahotel-2025/FlyingAlpha_hotel",
       liveLink: "https://www.flyingalpha.in/",
       techStack: ["Next.js", "MongoDB", "Shadcn", "Tailwind CSS"],
+    },
+  ];
+
+
+  export const JourneyData = [
+    {
+      year: "2019 (Pre-Lockdown)",
+      title: "First Website & Freelance Start",
+      description:
+        "Built my first WordPress website using a refurbished laptop, driven by the goal of earning independently. This marked my first step into the world of tech and freelancing.",
+      icon: <FaWordpressSimple />,
+    },
+    {
+      year: "2021",
+      title: "Selling Websites via CodeCanyon",
+      description:
+        "Started selling ready-made e-commerce and business websites sourced from CodeCanyon to local clients, learning customer handling, project delivery, and basic web customization.",
+      icon: <FaShoppingCart />,
+    },
+    {
+      year: "2022 - 2023",
+      title: "Transition into Coding & Development",
+      description:
+        "Moved beyond templates — began learning core web technologies starting from JavaScript. Built small projects to deeply understand how websites work from scratch.",
+      icon: <FaCode />,
+    },
+    {
+      year: "2024",
+      title: "Freelance Projects & Real-World Experience",
+      description:
+        "Completed 4+ full-stack freelance projects, mastering frontend development with React, Next.js, Tailwind CSS, and Shadcn UI. Developed real-world production applications for clients.",
+      icon: <FaLaptopCode />,
+    },
+    {
+      year: "2025 (Present)",
+      title: "Exploring SaaS, AI, and Future Tech",
+      description:
+        "Currently excited about SaaS-based AI platforms. Actively learning about LLMs (Large Language Models), building scalable SaaS products, and exploring how AI can revolutionize web development.",
+      icon: <FaBrain />,
     },
   ];
   
