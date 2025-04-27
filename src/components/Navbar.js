@@ -124,15 +124,6 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href={"/Projects"}
-              onClick={() => setIsOpen(false)}
-              className="flex items-center gap-2 text-gray-300 hover:text-white font-medium transition-colors"
-            >
-              <FaLaptopCode className="text-blue-400" />
-              Projects
-            </Link>
-
-            <Link
               href="/MyResume.pdf"
               download
               onClick={() => setIsOpen(false)}
