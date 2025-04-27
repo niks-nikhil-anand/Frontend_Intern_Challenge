@@ -124,22 +124,7 @@ const ProjectsSection = () => {
               />
             ))}
 
-            <div className="md:col-span-2 bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-xl p-8 mt-6 text-center">
-              <h3 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 mb-4">
-                Need a custom project?
-              </h3>
-              <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-                Looking for a developer to bring your ideas to life? I'm
-                available for freelance projects and would love to discuss how
-                we can work together to create something amazing.
-              </p>
-              <a
-                href="mailto:contact@example.com"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-medium rounded-full transition-all shadow-md hover:shadow-blue-500/30"
-              >
-                Get in Touch
-              </a>
-            </div>
+            
           </div>
         )}
       </div>

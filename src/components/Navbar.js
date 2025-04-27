@@ -82,17 +82,6 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href={"/Projects"}
-              className="hover:text-white transition-colors flex items-center gap-2 group"
-            >
-              <FaLaptopCode className="text-blue-400 group-hover:scale-110 transition-transform" />
-              <span className="relative overflow-hidden">
-                Projects
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
-              </span>
-            </Link>
-
-            <Link
               href="/MyResume.pdf"
               download
               className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-medium px-4 py-2 rounded-full transition-all shadow-md hover:shadow-blue-500/30"
