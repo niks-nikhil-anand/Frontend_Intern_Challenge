@@ -49,9 +49,12 @@ const Navbar = () => {
                 className="rounded-full relative border border-blue-400/30"
               />
             </div>
+            <Link href={"/"}>
             <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
               Nikhil Anand
             </span>
+            </Link>
+            
           </div>
 
           {/* Desktop menu */}
